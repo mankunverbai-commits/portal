@@ -1,0 +1,360 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  h1,
+  h2 {
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    padding-bottom: 5px;
+  }
+  
+ 
+  header {
+    background-color: white;
+    padding: 15px 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    border: 2px solid black;
+    z-index: 100;
+  }
+  
+  header h1 {
+    color: green;
+    font-size: 1.8em;
+    border: 2px solid green;
+    padding: 5px 10px;
+    margin: 5px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  nav ul li a {
+    color: green;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    background-color: skyblue;
+  }
+
+  .main-container {
+    padding: 60px 20px;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/031/624/707/small/yellow-flowers-in-a-vase-on-a-green-background-ai-generated-photo.jpg");
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 20px;
+    scroll-margin-top: 60px;
+  }
+  
+  .profile p {
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: azure;
+    font-size: 18px;
+    max-width: 800px;
+  }
+  
+  .man img {
+    width: 80%;
+    max-width: 300px;
+    border-radius: 10px;
+  }
+  
+  
+  .my {
+    padding: 60px 20px;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/031/624/707/small/yellow-flowers-in-a-vase-on-a-green-background-ai-generated-photo.jpg");
+    border-radius: 12px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 20px;
+    scroll-margin-top: 60px;
+ 
+  }
+  
+  .skill-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .skill-icons div {
+    padding: 20px;
+    background-color: lightgreen;
+    border: 2px solid white;
+    border-radius: 10px;
+    max-width: 300px;
+    transition: transform 0.3s;
+  }
+  
+  .skill-icons div:hover {
+    transform: scale(1.05);
+  }
+  
+  .skill-icons img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .skill-icons p {
+    color: white;
+  }
+  
+  .special h2 {
+    color: white;
+    font-weight: bold;
+  }
+  
+  
+  .feedback {
+    text-align: center;
+    padding: 60px 20px;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/031/624/707/small/yellow-flowers-in-a-vase-on-a-green-background-ai-generated-photo.jpg");
+    border-radius: 12px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    scroll-margin-top: 60px;
+  }
+  
+  .feedback h1 {
+    color: #222;
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+  }
+  
+  form {
+    background: white;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    text-align: left;
+    padding: 20px;
+    scroll-margin-top: 60px;
+  }
+  
+  label {
+    display: block;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  input,
+  textarea {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 6px rgba(0, 123, 255, 0.3);
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    background: green;
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  .grades {
+    text-align: center;
+    padding: 60px 20px;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/031/624/707/small/yellow-flowers-in-a-vase-on-a-green-background-ai-generated-photo.jpg");
+    border-radius: 12px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    scroll-margin-top: 60px;
+  }
+  
+  .grades h1 {
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 90%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    scroll-margin-top: 60px;
+}
+      
+
+  
+  caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 18px;
+  }
+  
+  th,
+  td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  th {
+    background-color: green;
+    color: white;
+    font-weight: 600;
+  }
+  
+  .contact {
+    text-align: center;
+    padding: 60px 20px;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/031/624/707/small/yellow-flowers-in-a-vase-on-a-green-background-ai-generated-photo.jpg");
+    border-radius: 12px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .contact a {
+    text-decoration: none;
+    color: blue;
+  }
+  
+  .contact div a img {
+    width: 35px;
+    height: 35px;
+    margin: 0 10px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+  }
+  
+  .contact div a img:hover {
+    transform: scale(1.2);
+  }
+  
+
+  footer {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    border-top: 2px solid black;
+  }
+  
+  footer a {
+    text-decoration: none;
+    font-weight: bold;
+    color: green;
+  }
+  
+  @media (max-width: 900px) {
+    header {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav ul {
+      flex-direction: column;
+    }
+  
+    .skill-icons {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .man img {
+      width: 90%;
+    }
+  
+  }
+  
+  @media (max-width: 500px) {
+    h1 {
+      font-size: 22px;
+    }
+  
+    .profile p {
+      font-size: 16px;
+    }
+  
+    input,
+    textarea,
+    button {
+      font-size: 14px;
+    }
+  
+    nav ul li a {
+      padding: 8px;
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    table, thead, tbody, th, td, tr {
+      display: block;
+    }
+  
+    thead tr {
+      display: none; 
+    }
+  
+  }
+     
+    
+
+
+ 
+  
+
+
